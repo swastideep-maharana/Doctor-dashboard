@@ -1,0 +1,280 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(120deg, #f0f4ff 0%, #f7f7f7 100%);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2563eb;
+  color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
+}
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.navbar-links a {
+  color: #fff;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar-links a:hover {
+  color: #a5b4fc;
+}
+
+.app-container {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.1);
+  padding: 2.5rem 3rem;
+  max-width: 950px;
+  margin: 2.5rem auto;
+  border: 1px solid #e0e7ef;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #2563eb;
+  letter-spacing: 1px;
+}
+
+.card {
+  background: #f9fafb;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 12px rgba(37, 99, 235, 0.07);
+  border: 1px solid #e5e7eb;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.card:hover {
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.13);
+  transform: translateY(-2px) scale(1.01);
+}
+
+.button {
+  border: none;
+  border-radius: 0.35rem;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(37, 99, 235, 0.08);
+  outline: none;
+}
+.button:focus {
+  box-shadow: 0 0 0 2px #a5b4fc;
+  transform: scale(1.03);
+}
+.button-blue {
+  background: #2563eb;
+  color: #fff;
+}
+.button-blue:hover {
+  background: #1d4ed8;
+}
+.button-green {
+  background: #22c55e;
+  color: #fff;
+}
+.button-green:hover {
+  background: #16a34a;
+}
+.button-yellow {
+  background: #eab308;
+  color: #fff;
+}
+.button-yellow:hover {
+  background: #ca8a04;
+}
+.button-gray {
+  background: #e5e7eb;
+  color: #222;
+}
+.button-gray:hover {
+  background: #d1d5db;
+}
+
+input,
+select {
+  border: 1px solid #cbd5e1;
+  border-radius: 0.35rem;
+  padding: 0.5rem 0.9rem;
+  font-size: 1rem;
+  background: #f8fafc;
+  transition: border 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+input:focus,
+select:focus {
+  border: 1.5px solid #2563eb;
+  box-shadow: 0 0 0 2px #a5b4fc;
+}
+
+.text-red {
+  color: #ef4444;
+}
+.text-blue {
+  color: #2563eb;
+}
+.text-gray {
+  color: #6b7280;
+}
+.text-xs {
+  font-size: 0.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-medium {
+  font-weight: 500;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-4 {
+  margin-bottom: 1.2rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-8 {
+  margin-top: 2rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-4 {
+  gap: 1.2rem;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.rounded {
+  border-radius: 0.35rem;
+}
+.shadow {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+.border {
+  border: 1px solid #e5e7eb;
+}
+.bg-white {
+  background: #fff;
+}
+.bg-black {
+  background: #000;
+}
+.bg-opacity-30 {
+  background: rgba(0, 0, 0, 0.3);
+}
+.w-full {
+  width: 100%;
+}
+.w-80 {
+  width: 20rem;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.z-50 {
+  z-index: 50;
+}
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.pl-4 {
+  padding-left: 1rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.divide-y > * + * {
+  border-top: 1px solid #e5e7eb;
+}
+
+@media (max-width: 700px) {
+  .app-container {
+    padding: 1rem 0.5rem;
+    margin: 1rem 0.2rem;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1rem;
+  }
+  .navbar-title {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .card {
+    padding: 0.7rem 0.5rem;
+  }
+  .button {
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+  }
+}
