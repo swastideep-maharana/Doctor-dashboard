@@ -1,6 +1,4 @@
 # Doctor Dashboard
-
-![Doctor Dashboard Screenshot](./public/dashboard-screenshot.png)
 _Doctor Dashboard – clean, simple, and easy to use._
 
 Welcome! This is a modern, responsive dashboard for doctors to manage their appointments. You can filter, update, and reschedule appointments with just a few clicks. The interface is designed to be intuitive and fast, whether you're on desktop or mobile.
